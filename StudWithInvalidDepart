@@ -1,0 +1,5 @@
+Select Student.name, Student.department from Student
+leftjoin Department  on (Student.department_id = Department.id)
+where Department.id = null;
+
+
